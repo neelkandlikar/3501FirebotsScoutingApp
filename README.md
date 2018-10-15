@@ -1,2 +1,0 @@
-# Scouting App
-
