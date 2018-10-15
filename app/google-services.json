@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "183778545920",
+    "firebase_url": "https://robotics-40b16.firebaseio.com",
+    "project_id": "robotics-40b16",
+    "storage_bucket": "robotics-40b16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183778545920:android:e8d6c42e96b2689f",
+        "android_client_info": {
+          "package_name": "com.neelk.robotics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183778545920-j4cnkl4o9qu7ppck93u8rapa3sgb0u4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neelk.robotics",
+            "certificate_hash": "57b9373c5cc5ff8dc75f05508b50c25300478454"
+          }
+        },
+        {
+          "client_id": "183778545920-ubmkon70hu6vgj0quep4ggakv9k2vih5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkTa4Ty-CF6PriY11MwW0rQJw4uIO7K2Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183778545920-ubmkon70hu6vgj0quep4ggakv9k2vih5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

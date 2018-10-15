@@ -1,0 +1,33 @@
+<resources>
+    <string name="login">LOGIN</string>
+    <string name="sgnup">SIGN UP</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="back">BACK</string>
+    <string name="logout">Logout</string>
+    <string name="enterEmail">Email</string>
+    <string name="password">Password</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="enterEmailToResetPassword">Enter your email below to reset your password</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="home">Home</string>
+    <string name="competitions">Competitions</string>
+    <string name="settings">Settings</string>
+    <string name="scout">Scout</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="zero">0</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="competitionOneLocation">Sacramento</string>
+    <string name="competitionTwoLocation">Arizona</string>
+    <string name="criteria1">Criteria 1</string>
+    <string name="criteria2">Criteria 2</string>
+    <string name="criteria3">Criteria 3</string>
+    <string name="criteria4">Criteria 4</string>
+    <string name="criteria5">Criteria 5</string>
+    <string name="criteria6">Criteria 6</string>
+    <string name="name">Name</string>
+    <string name="competitionLocation">Competition Location</string>
+    <string name="teamScouting">Team Scouting</string>
+
+</resources>

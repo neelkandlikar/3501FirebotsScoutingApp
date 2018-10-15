@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="72dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textViewScore1"
+            android:layout_width="175dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/roboto_thin"
+            android:gravity="center"
+            android:text=""
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="377dp"
+            tools:layout_editor_absoluteY="166dp" />
+
+        <TextView
+            android:id="@+id/textViewScore2"
+            android:layout_width="175dp"
+            android:layout_height="162dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_thin"
+            android:gravity="center"
+            android:text=""
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="349dp"
+            tools:layout_editor_absoluteY="340dp" />
+
+        <TextView
+            android:id="@+id/textViewScore3"
+            android:layout_width="173dp"
+            android:layout_height="157dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@f/roboto_thin"
+            android:gravity="center"
+            android:text=""
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="351dp"
+            tools:layout_editor_absoluteY="116dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/record">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image1"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="100dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image2"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="80dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image3"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="80dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/record"
+        android:layout_width="266dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/roboto_thin"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
