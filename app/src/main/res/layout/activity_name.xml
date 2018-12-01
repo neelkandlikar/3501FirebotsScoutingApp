@@ -10,12 +10,12 @@
         android:id="@+id/nameEditText"
         android:layout_width="263dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="70dp"
+        android:layout_marginBottom="63dp"
         android:ems="10"
         android:gravity="center"
         android:hint="Name"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/teamScoutingEditText"
+        app:layout_constraintBottom_toTopOf="@+id/matchNumberEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/basicInfoTextView" />
@@ -39,7 +39,7 @@
         style="?android:attr/borderlessButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="284dp"
+        android:layout_marginBottom="258dp"
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,12 +50,26 @@
         android:id="@+id/teamScoutingEditText"
         android:layout_width="263dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="125dp"
+        android:layout_marginBottom="57dp"
         android:ems="10"
         android:gravity="center"
-        android:hint="Team Scouting"
+        android:hint="@string/teamScouting"
         app:layout_constraintBottom_toTopOf="@+id/nextButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/matchNumberEditText" />
+
+    <EditText
+        android:id="@+id/matchNumberEditText"
+        android:layout_width="263dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="53dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/matchNumber"
+        app:layout_constraintBottom_toTopOf="@+id/teamScoutingEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/nameEditText" />
+
 </android.support.constraint.ConstraintLayout>

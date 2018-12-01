@@ -18,8 +18,8 @@
     <string name="zero">0</string>
     <string name="submit">Submit</string>
     <string name="next">Next</string>
-    <string name="competitionOneLocation">Sacramento</string>
-    <string name="competitionTwoLocation">Arizona</string>
+    <string name="competitionOneLocation">North Los Angeles</string>
+    <string name="competitionTwoLocation">Utah</string>
     <string name="criteria1">Criteria 1</string>
     <string name="criteria2">Criteria 2</string>
     <string name="criteria3">Criteria 3</string>
@@ -29,5 +29,14 @@
     <string name="name">Name</string>
     <string name="competitionLocation">Competition Location</string>
     <string name="teamScouting">Team Scouting</string>
+    <string name="matchNumber">Match Number</string>
+    <string name="competitionOneLat">34.456043</string>
+    <string name="competitionOneLng">-118.571335</string>
+    <string name="competitionTwoLat">40.686830586</string>
+    <string name="competitionTwoLng">-111.989662708</string>
+    #manually have to change pictures in fragment_competitions
+    <string name="team">Team</string>
+    <string name="match">Match</string>
+
 
 </resources>

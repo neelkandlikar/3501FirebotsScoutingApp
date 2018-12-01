@@ -7,14 +7,14 @@
     tools:context=".Competition2">
 
     <TextView
-        android:id="@+id/arizonaTextView"
+        android:id="@+id/competitionTwoTextView"
         android:layout_width="143dp"
         android:layout_height="0dp"
         android:layout_marginBottom="76dp"
         android:layout_marginTop="93dp"
         android:fontFamily="@font/roboto_thin"
         android:gravity="center"
-        android:text="Arizona"
+        android:text="@string/competitionTwoLocation"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/map"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,7 +33,7 @@
         map:layout_constraintEnd_toEndOf="parent"
         map:layout_constraintHorizontal_bias="0.5"
         map:layout_constraintStart_toStartOf="parent"
-        map:layout_constraintTop_toBottomOf="@+id/arizonaTextView" />
+        map:layout_constraintTop_toBottomOf="@+id/competitionTwoTextView" />
 
     <Button
         android:id="@+id/scoutButton"

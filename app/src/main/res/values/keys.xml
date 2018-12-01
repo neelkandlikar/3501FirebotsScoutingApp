@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="googleMapsApiKey">AIzaSyDif3Yf5hwKI16RWw64zCPQvgqfrVF3SVU</string>
+    <!--<string name="googleMapsApiKey">AIzaSyDif3Yf5hwKI16RWw64zCPQvgqfrVF3SVU</string>
+    roshans key
+    -->
+    <string name="googleMapsApiKey">AIzaSyDkTa4Ty-CF6PriY11MwW0rQJw4uIO7K2Q</string>
     <string name="blueAllianceApiKey">TuQVh8HXaPEiCo8QN3sMVyqR36rTNdaBJrHWcqzpm50H2UButmudk6hl6d27PoGz</string>
 
 </resources>

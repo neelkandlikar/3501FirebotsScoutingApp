@@ -47,7 +47,7 @@
             android:layout_width="173dp"
             android:layout_height="157dp"
             android:layout_marginTop="20dp"
-            android:fontFamily="@f/roboto_thin"
+            android:fontFamily="@font/roboto_thin"
             android:gravity="center"
             android:text=""
             android:textSize="18sp"

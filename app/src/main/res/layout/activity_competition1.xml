@@ -7,14 +7,14 @@
     tools:context=".Competition1">
 
     <TextView
-        android:id="@+id/sacramentoTextView"
+        android:id="@+id/competitionOneTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="58dp"
         android:layout_marginTop="92dp"
         android:fontFamily="@font/roboto_thin"
         android:gravity="center"
-        android:text="Sacramento"
+        android:text="@string/competitionOneLocation"
         android:textSize="40sp"
         app:layout_constraintBottom_toTopOf="@+id/map"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         map:layout_constraintEnd_toEndOf="parent"
         map:layout_constraintHorizontal_bias="0.5"
         map:layout_constraintStart_toStartOf="parent"
-        map:layout_constraintTop_toBottomOf="@+id/sacramentoTextView" />
+        map:layout_constraintTop_toBottomOf="@+id/competitionOneTextView" />
 
     <Button
         android:id="@+id/scoutButton"
