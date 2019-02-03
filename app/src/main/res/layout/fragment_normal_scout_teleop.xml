@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/middle_linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="934dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="23dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/linear_layout_right"
+        app:layout_constraintStart_toEndOf="@+id/linear_layout_left"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/criteria1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-150dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/normalScoutTeleopCriteria1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/value1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/zero"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/criteria2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/normalScoutTeleopCriteria2"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/value2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/zero"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/criteria3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/normalScoutTeleopCriteria3"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/value3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/zero"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/criteria4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/normalScoutTeleopCriteria4"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/value4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/zero"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/criteria6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/normalScoutTeleopCriteria6"
+            android:textSize="15sp" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:textOff="@string/no"
+            android:textOn="@string/yes" />
+
+
+        <TextView
+            android:id="@+id/criteria8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/normalScoutTeleopCriteria8"
+            android:textSize="15sp" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:textOff="@string/no"
+            android:textOn="@string/yes" />
+
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/submit"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/middle_linear_layout"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/button1plus"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/plus"
+            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
+
+        <Button
+            android:id="@+id/button2plus"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/plus"
+            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
+
+        <Button
+            android:id="@+id/button3plus"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/plus"
+            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
+
+        <Button
+            android:id="@+id/button4plus"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/plus"
+            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
+
+        <TextView
+            android:id="@+id/criteria7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/normalScoutTeleopCriteria7"
+            android:textSize="15sp" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:textOff="@string/no"
+            android:textOn="@string/yes" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="14dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/middle_linear_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/button1minus"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/minus"
+            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
+
+        <Button
+            android:id="@+id/button2minus"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/minus"
+            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
+
+
+        <Button
+            android:id="@+id/button3minus"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/minus"
+            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
+
+
+        <Button
+            android:id="@+id/button4minus"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/minus"
+            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
+
+
+        <TextView
+            android:id="@+id/criteria5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/roboto_thin"
+            android:text="@string/normalScoutTeleopCriteria5"
+            android:textSize="15sp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:textOff="@string/no"
+            android:textOn="@string/yes" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+

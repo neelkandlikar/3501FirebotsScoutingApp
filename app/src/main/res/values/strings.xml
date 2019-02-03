@@ -26,17 +26,45 @@
     <string name="criteria4">Criteria 4</string>
     <string name="criteria5">Criteria 5</string>
     <string name="criteria6">Criteria 6</string>
+    <string name="criteria7">Criteria 7</string>
+    <string name="criteria8">Criteria 8</string>
     <string name="name">Name</string>
     <string name="competitionLocation">Competition Location</string>
-    <string name="teamScouting">Team Scouting</string>
+    <string name="teamScouting">Team(s)</string>
     <string name="matchNumber">Match Number</string>
     <string name="competitionOneLat">34.456043</string>
     <string name="competitionOneLng">-118.571335</string>
     <string name="competitionTwoLat">40.686830586</string>
     <string name="competitionTwoLng">-111.989662708</string>
+    <string name="superScout">Super Scout</string>
     #manually have to change pictures in fragment_competitions
     <string name="team">Team</string>
     <string name="match">Match</string>
+    <string name="updates">Updates</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="normalScoutTeleopCriteria1">Cargo Ship Hatches</string>
+    <string name="normalScoutTeleopCriteria2">Cargo Ship Cargo</string>
+    <string name="normalScoutTeleopCriteria3">Rocket Hatches</string>
+    <string name="normalScoutTeleopCriteria4">Rocket Cargo</string>
+    <string name="normalScoutTeleopCriteria5">Ability for High Goal?</string>
+    <string name="normalScoutTeleopCriteria6">Climbing Platform 1</string>
+    <string name="normalScoutTeleopCriteria7">Climbing Platform 2</string>
+    <string name="normalScoutTeleopCriteria8">Climbing Platform 3</string>
+    <string name="normalScoutSandstormCriteria1">Platform 1 Hab Bonus</string>
+    <string name="normalScoutSandstormCriteria2">Platform 2 Hab Bonus</string>
+    <string name="normalScoutSandstormCriteria3">Cargo Ship Hatches</string>
+    <string name="normalScoutSandstormCriteria4">Cargo Ship Cargo </string>
+    <string name="normalScoutSandstormCriteria5">Rocket Hatches</string>
+    <string name="normalScoutSandstormCriteria6">Rocket Cargo </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scouting_tab_adapter">ScoutingTabAdapter</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_super_scout_tab_adapter">SuperScoutTabAdapter</string>
 
 
 </resources>

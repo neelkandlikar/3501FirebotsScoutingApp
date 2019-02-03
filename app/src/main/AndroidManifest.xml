@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.neelk.robotics">
 
-    <uses-sdk
-         />
+    <uses-sdk />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -23,16 +22,16 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/firebotslogo"
-        android:label="Robotics"
+        android:label="Scouting App 2019"
         android:roundIcon="@drawable/firebotslogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity"/>
+        <activity android:name=".MainActivity" />
         <activity android:name=".UserArea" />
         <activity android:name=".SignUP" />
         <activity android:name=".ForgotPassword" />
-        <activity android:name=".NavigationBarManager" >
+        <activity android:name=".NavigationBarManager">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,8 +45,16 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/googleMapsApiKey" />
 
-        <activity android:name=".CompetitionScouting" />
-        <activity android:name=".Name"></activity>
+        <activity android:name=".Name" />
+        <activity android:name=".SuperScoutActivity" />
+        <activity
+            android:name=".ScoutingTabAdapter"
+            android:label="@string/title_activity_scouting_tab_adapter"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SuperScoutTabAdapter"
+            android:label="@string/title_activity_super_scout_tab_adapter"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
