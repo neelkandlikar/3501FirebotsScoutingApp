@@ -57,14 +57,21 @@
     <string name="normalScoutSandstormCriteria4">Cargo Ship Cargo </string>
     <string name="normalScoutSandstormCriteria5">Rocket Hatches</string>
     <string name="normalScoutSandstormCriteria6">Rocket Cargo </string>
+    <string name="finish">Finish</string>
 
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_scouting_tab_adapter">ScoutingTabAdapter</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_super_scout_tab_adapter">SuperScoutTabAdapter</string>
+    <string name="scanner">Scanner</string>
+    <string name="defense">Defense</string>
+    <string name="driverAdaptability">Driver Adaptability</string>
+    <string name="driverCapability">Driver Capability</string>
+    <string name="groundPickup">Ground Pickup</string>
+    <string name="isSuperScout">is SuperScout</string>
+
 
 
 </resources>

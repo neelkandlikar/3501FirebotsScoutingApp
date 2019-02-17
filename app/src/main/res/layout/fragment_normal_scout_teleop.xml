@@ -95,16 +95,16 @@
 
 
         <TextView
-            android:id="@+id/criteria6"
+            android:id="@+id/criteria7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="@font/roboto_thin"
-            android:text="@string/normalScoutTeleopCriteria6"
+            android:text="@string/normalScoutTeleopCriteria7"
             android:textSize="15sp" />
 
         <Switch
-            android:id="@+id/switch2"
+            android:id="@+id/switch3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -116,16 +116,16 @@
 
 
         <TextView
-            android:id="@+id/criteria8"
+            android:id="@+id/criteria5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:fontFamily="@font/roboto_thin"
-            android:text="@string/normalScoutTeleopCriteria8"
+            android:text="@string/normalScoutTeleopCriteria5"
             android:textSize="15sp" />
 
         <Switch
-            android:id="@+id/switch4"
+            android:id="@+id/switch1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -202,17 +202,18 @@
             android:text="@string/plus"
             android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
 
+
         <TextView
-            android:id="@+id/criteria7"
+            android:id="@+id/criteria8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:fontFamily="@font/roboto_thin"
-            android:text="@string/normalScoutTeleopCriteria7"
+            android:text="@string/normalScoutTeleopCriteria8"
             android:textSize="15sp" />
 
         <Switch
-            android:id="@+id/switch3"
+            android:id="@+id/switch4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -221,7 +222,6 @@
             android:scaleY="1.5"
             android:textOff="@string/no"
             android:textOn="@string/yes" />
-
 
     </LinearLayout>
 
@@ -288,16 +288,16 @@
 
 
         <TextView
-            android:id="@+id/criteria5"
+            android:id="@+id/criteria6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:fontFamily="@font/roboto_thin"
-            android:text="@string/normalScoutTeleopCriteria5"
+            android:text="@string/normalScoutTeleopCriteria6"
             android:textSize="15sp" />
 
         <Switch
-            android:id="@+id/switch1"
+            android:id="@+id/switch2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -306,8 +306,6 @@
             android:scaleY="1.5"
             android:textOff="@string/no"
             android:textOn="@string/yes" />
-
-
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -31,7 +31,9 @@
         <activity android:name=".UserArea" />
         <activity android:name=".SignUP" />
         <activity android:name=".ForgotPassword" />
-        <activity android:name=".NavigationBarManager">
+        <activity
+            android:name=".NavigationBarManager"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,7 +48,6 @@
             android:value="@string/googleMapsApiKey" />
 
         <activity android:name=".Name" />
-        <activity android:name=".SuperScoutActivity" />
         <activity
             android:name=".ScoutingTabAdapter"
             android:label="@string/title_activity_scouting_tab_adapter"
@@ -54,7 +55,10 @@
         <activity
             android:name=".SuperScoutTabAdapter"
             android:label="@string/title_activity_super_scout_tab_adapter"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".QrCodeGeneratorActivity"></activity>
+
+
     </application>
 
 </manifest>

@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/navigation"
-    >
+    android:id="@+id/navigation">
 
-        <item
-            android:id="@+id/menu_home"
-            android:title="@string/home"
-            android:icon="@drawable/ic_home_black_24dp"
-            />
-        <item
-            android:id="@+id/menu_competititions"
-            android:title="@string/competitions"
-            android:icon="@drawable/ic_flight_takeoff_black_24dp"
-            />
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/menu_competititions"
+        android:icon="@drawable/ic_flight_takeoff_black_24dp"
+        android:title="@string/competitions" />
 
 
-        <item
-            android:id="@+id/menu_settings"
-            android:title="@string/updates"
-            android:icon="@drawable/ic_update_black_24dp" />
-    </menu>
+    <item
+        android:id="@+id/menu_scanner"
+        android:icon="@drawable/ic_linked_camera_black_24dp"
+        android:title="@string/scanner" />
+</menu>
 
