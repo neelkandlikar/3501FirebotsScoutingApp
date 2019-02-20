@@ -58,6 +58,10 @@
     <string name="normalScoutSandstormCriteria5">Rocket Hatches</string>
     <string name="normalScoutSandstormCriteria6">Rocket Cargo </string>
     <string name="finish">Finish</string>
+    <string name="cargoHatchesSandstorm">Cargo Ship Hatches Sandstorm</string>
+    <string name="cargoCargoSandstorm">Cargo Ship Cargo Sandstorm</string>
+    <string name="rocketHatchesSandstorm">Rocket Hatches Sandstorm</string>
+    <string name="rocketCargoSandstorm">Rocket Cargo Sandstorm</string>
 
 
     <string name="hello_blank_fragment">Hello blank fragment</string>

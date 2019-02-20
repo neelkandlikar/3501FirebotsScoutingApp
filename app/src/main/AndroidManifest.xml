@@ -21,14 +21,13 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/firebotslogo"
+        android:icon="@drawable/firebotsnewlogo"
         android:label="Scouting"
-        android:roundIcon="@drawable/firebotslogo"
+        android:roundIcon="@drawable/firebotsnewlogo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MainActivity" />
-        <activity android:name=".UserArea" />
         <activity android:name=".SignUP" />
         <activity android:name=".ForgotPassword" />
         <activity
@@ -43,9 +42,6 @@
         <activity android:name=".Competition1" />
         <activity android:name=".Competition2" />
 
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="@string/googleMapsApiKey" />
 
         <activity android:name=".Name" />
         <activity
