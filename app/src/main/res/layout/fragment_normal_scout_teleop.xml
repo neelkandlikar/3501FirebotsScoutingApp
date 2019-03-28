@@ -8,12 +8,11 @@
     <LinearLayout
         android:id="@+id/middle_linear_layout"
         android:layout_width="wrap_content"
-        android:layout_height="934dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="23dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/linear_layout_right"
         app:layout_constraintStart_toEndOf="@+id/linear_layout_left"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,16 +22,17 @@
             android:id="@+id/criteria1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-150dp"
             android:fontFamily="@font/roboto_thin"
-            android:text="@string/normalScoutTeleopCriteria1"
-            android:textSize="15sp" />
+            android:text="Hatches"
+            android:textSize="30sp" />
+
 
         <TextView
             android:id="@+id/value1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
             android:fontFamily="@font/roboto_thin"
             android:text="@string/zero"
             android:textSize="25sp" />
@@ -42,53 +42,17 @@
             android:id="@+id/criteria2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:fontFamily="@font/roboto_thin"
-            android:text="@string/normalScoutTeleopCriteria2"
-            android:textSize="15sp" />
+            android:text="Cargo"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/value2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:fontFamily="@font/roboto_thin"
-            android:text="@string/zero"
-            android:textSize="25sp" />
-
-
-        <TextView
-            android:id="@+id/criteria3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto_thin"
-            android:text="@string/normalScoutTeleopCriteria3"
-            android:textSize="15sp" />
-
-
-        <TextView
-            android:id="@+id/value3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/roboto_thin"
-            android:text="@string/zero"
-            android:textSize="25sp" />
-
-
-        <TextView
-            android:id="@+id/criteria4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/roboto_thin"
-            android:text="@string/normalScoutTeleopCriteria4"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/value4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
             android:fontFamily="@font/roboto_thin"
             android:text="@string/zero"
             android:textSize="25sp" />
@@ -101,7 +65,7 @@
             android:layout_marginTop="10dp"
             android:fontFamily="@font/roboto_thin"
             android:text="@string/normalScoutTeleopCriteria7"
-            android:textSize="15sp" />
+            android:textSize="20sp" />
 
         <Switch
             android:id="@+id/switch3"
@@ -122,14 +86,14 @@
             android:layout_marginTop="10dp"
             android:fontFamily="@font/roboto_thin"
             android:text="@string/normalScoutTeleopCriteria5"
-            android:textSize="15sp" />
+            android:textSize="20sp" />
 
         <Switch
             android:id="@+id/switch1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="30dp"
             android:scaleX="1.5"
             android:scaleY="1.5"
             android:textOff="@string/no"
@@ -141,18 +105,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/white"
             android:text="@string/submit"
-            android:textSize="13sp" />
+            android:textColor="@color/black"
+            android:textSize="15sp" />
     </LinearLayout>
 
 
     <LinearLayout
         android:id="@+id/linear_layout_right"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="12dp"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/middle_linear_layout"
         app:layout_constraintTop_toTopOf="parent">
@@ -163,8 +131,8 @@
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
             android:text="@string/plus"
             android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
@@ -174,31 +142,10 @@
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="right"
+            android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:layout_marginRight="20dp"
-            android:text="@string/plus"
-            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
-
-        <Button
-            android:id="@+id/button3plus"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:text="@string/plus"
-            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
-
-        <Button
-            android:id="@+id/button4plus"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
+            android:layout_marginBottom="60dp"
             android:text="@string/plus"
             android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
 
@@ -210,7 +157,7 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/roboto_thin"
             android:text="@string/normalScoutTeleopCriteria8"
-            android:textSize="15sp" />
+            android:textSize="17sp" />
 
         <Switch
             android:id="@+id/switch4"
@@ -229,13 +176,12 @@
     <LinearLayout
         android:id="@+id/linear_layout_left"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
-        android:layout_marginEnd="14dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="12dp"
         android:orientation="vertical"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
+        android:paddingLeft="0dp"
         app:layout_constraintEnd_toStartOf="@+id/middle_linear_layout"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -243,46 +189,27 @@
         <Button
             android:id="@+id/button1minus"
             style="?android:attr/borderlessButtonStyle"
-            android:layout_width="60dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
+            android:layout_gravity="center"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
             android:text="@string/minus"
             android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
+
 
         <Button
             android:id="@+id/button2minus"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
+            android:layout_gravity="center"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="@string/minus"
-            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
-
-
-        <Button
-            android:id="@+id/button3minus"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/minus"
-            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
-
-
-        <Button
-            android:id="@+id/button4minus"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginBottom="45dp"
+            android:gravity="center"
             android:text="@string/minus"
             android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
 
@@ -294,7 +221,7 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/roboto_thin"
             android:text="@string/normalScoutTeleopCriteria6"
-            android:textSize="15sp" />
+            android:textSize="17sp" />
 
         <Switch
             android:id="@+id/switch2"

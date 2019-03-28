@@ -41,11 +41,11 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
             android:fontFamily="@font/roboto_thin"
-            android:text="@string/driverAdaptability"
+            android:text="Driver Ability"
             android:textSize="40sp" />
 
         <RatingBar
-            android:id="@+id/driverAdapdabilityRating"
+            android:id="@+id/driverAbilityRating"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:isIndicator="false"
@@ -59,11 +59,11 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
             android:fontFamily="@font/roboto_thin"
-            android:text="@string/driverCapability"
+            android:text="Robot Ability"
             android:textSize="40sp" />
 
         <RatingBar
-            android:id="@+id/driverCapabalityRating"
+            android:id="@+id/robotAbilityRating"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:isIndicator="false"

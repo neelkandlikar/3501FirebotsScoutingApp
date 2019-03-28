@@ -21,7 +21,6 @@
             android:id="@+id/criteria1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-100dp"
             android:fontFamily="@font/roboto_thin"
             android:text="@string/normalScoutSandstormCriteria1"
             android:textSize="25sp" />
@@ -31,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="40dp"
             android:scaleX="1.5"
             android:scaleY="1.5"
             android:textOff="@string/no"
@@ -51,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginBottom="40dp"
             android:scaleX="1.5"
             android:scaleY="1.5"
             android:textOff="@string/no"
@@ -71,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:layout_marginBottom="40dp"
             android:fontFamily="@font/roboto_thin"
             android:text="@string/zero"
             android:textSize="25sp" />
@@ -93,42 +93,6 @@
             android:text="@string/zero"
             android:textSize="25sp" />
 
-        <TextView
-            android:id="@+id/criteria5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/roboto_thin"
-            android:text="@string/normalScoutSandstormCriteria5"
-            android:textSize="25sp" />
-
-        <TextView
-            android:id="@+id/value5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/roboto_thin"
-            android:text="@string/zero"
-            android:textSize="25sp" />
-
-        <TextView
-            android:id="@+id/criteria6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/roboto_thin"
-            android:text="@string/normalScoutSandstormCriteria6"
-            android:textSize="25sp" />
-
-        <TextView
-            android:id="@+id/value6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/roboto_thin"
-            android:text="@string/zero"
-            android:textSize="25sp" />
-
 
     </LinearLayout>
 
@@ -137,6 +101,8 @@
         android:id="@+id/linear_layout_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="24dp"
         android:orientation="vertical"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
@@ -153,33 +119,12 @@
             android:layout_gravity="right"
             android:layout_marginTop="290dp"
             android:layout_marginRight="20dp"
+            android:layout_marginBottom="50dp"
             android:text="@string/plus"
             android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
 
         <Button
             android:id="@+id/button4plus"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:text="@string/plus"
-            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
-
-        <Button
-            android:id="@+id/button5plus"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:text="@string/plus"
-            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
-
-        <Button
-            android:id="@+id/button6plus"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="60dp"
             android:layout_height="wrap_content"
@@ -197,7 +142,8 @@
         android:id="@+id/linear_layout_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="3dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="220dp"
         android:layout_marginEnd="14dp"
         android:orientation="vertical"
         android:paddingLeft="16dp"
@@ -215,35 +161,12 @@
             android:layout_gravity="left"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="290dp"
+            android:layout_marginBottom="50dp"
             android:text="@string/minus"
             android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
 
         <Button
             android:id="@+id/button4minus"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/minus"
-            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
-
-
-        <Button
-            android:id="@+id/button5minus"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/minus"
-            android:textSize="@dimen/place_autocomplete_powered_by_google_height" />
-
-
-        <Button
-            android:id="@+id/button6minus"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="60dp"
             android:layout_height="wrap_content"

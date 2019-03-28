@@ -53,8 +53,8 @@
     <string name="normalScoutTeleopCriteria8">Climbing Platform 3</string>
     <string name="normalScoutSandstormCriteria1">Platform 1 Hab Bonus</string>
     <string name="normalScoutSandstormCriteria2">Platform 2 Hab Bonus</string>
-    <string name="normalScoutSandstormCriteria3">Cargo Ship Hatches</string>
-    <string name="normalScoutSandstormCriteria4">Cargo Ship Cargo </string>
+    <string name="normalScoutSandstormCriteria3">Hatches </string>
+    <string name="normalScoutSandstormCriteria4">Cargo </string>
     <string name="normalScoutSandstormCriteria5">Rocket Hatches</string>
     <string name="normalScoutSandstormCriteria6">Rocket Cargo </string>
     <string name="finish">Finish</string>
@@ -75,6 +75,14 @@
     <string name="driverCapability">Driver Capability</string>
     <string name="groundPickup">Ground Pickup</string>
     <string name="isSuperScout">is SuperScout</string>
+    <string name="superScoutName">Super Scout Name</string>
+    <string name="driverAbility">Driver Ability</string>
+    <string name="robotAbility">Robot Ability</string>
+    <string name="hatches">Hatches</string>
+    <string name="cargo">Cargo</string>
+    <string name="sandstormHatches">Sandstorm Hatches</string>
+    <string name="sandstormCargo">Sandstorm Cargo</string>
+
 
 
 

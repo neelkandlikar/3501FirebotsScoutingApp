@@ -6,93 +6,89 @@
     android:layout_height="match_parent"
     tools:context=".Name">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/nameEditText"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="98dp"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="44dp"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/matchNumberEditText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/basicInfoTextView" />
-
-    <TextView
-        android:id="@+id/basicInfoTextView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="98dp"
-        android:layout_marginTop="74dp"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="58dp"
-        android:fontFamily="@font/roboto_thin"
-        android:text="Basic Information"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/nameEditText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/basicInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_thin"
+            android:text="Basic Information"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="50sp"
+            android:layout_marginBottom="100dp"/>
 
 
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="290dp"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Name"
+            android:layout_marginBottom="60dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="218dp" />
 
-    <EditText
-        android:id="@+id/teamScoutingEditText"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="98dp"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="198dp"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="@string/teamScouting"
-        app:layout_constraintBottom_toTopOf="@+id/scoutButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/matchNumberEditText" />
 
-    <EditText
-        android:id="@+id/matchNumberEditText"
-        android:layout_width="343dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="45dp"
-        android:ems="10"
-        android:gravity="center"
-        android:hint="@string/matchNumber"
-        app:layout_constraintBottom_toTopOf="@+id/teamScoutingEditText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameEditText" />
+        <EditText
+            android:id="@+id/teamScoutingEditText"
+            android:layout_width="290dp"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/teamScouting"
+            android:layout_marginBottom="60dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            tools:layout_editor_absoluteX="118dp"
+            tools:layout_editor_absoluteY="424dp" />
 
-    <Button
-        android:id="@+id/superScoutButton"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="105dp"
-        android:text="@string/superScout"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scoutButton" />
+        <EditText
+            android:id="@+id/matchNumberEditText"
+            android:layout_width="290dp"
+            android:layout_height="65dp"
+            android:ems="10"
+            android:layout_marginBottom="80dp"
+            android:gravity="center"
+            android:hint="@string/matchNumber"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
 
-    <Button
-        android:id="@+id/scoutButton"
-        style="?android:attr/borderlessButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="14dp"
-        android:layout_marginBottom="41dp"
-        android:text="@string/scout"
-        app:layout_constraintBottom_toTopOf="@+id/superScoutButton"
-        app:layout_constraintStart_toStartOf="@+id/superScoutButton"
-        app:layout_constraintTop_toBottomOf="@+id/teamScoutingEditText" />
+        <Button
+            android:id="@+id/superScoutButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/roboto_thin"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/white"
+            android:textAllCaps="false"
+            android:text="@string/superScout"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/scoutButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/roboto_thin"
+            android:background="@drawable/round_button"
+            android:backgroundTint="@color/white"
+            android:text="@string/scout"
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
